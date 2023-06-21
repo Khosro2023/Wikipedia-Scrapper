@@ -11,14 +11,14 @@ else:
 countries_url="https://country-leaders.onrender.com/countries"
 req=requests.get(countries_url)
 print(req.status_code)
-print(req.json)
+print(req.json())
 
 cookie_url="https://country-leaders.onrender.com/cookie"
 cookie=requests.get(cookie_url)
 print(cookie.status_code)
-print(cookie.json)
+print(cookie.json())
 
 leaders_url="https://country-leaders.onrender.com/leaders"
 leaders=requests.get(leaders_url)
 print(leaders.status_code)
-print(leaders.json)
+print(leaders.json())
